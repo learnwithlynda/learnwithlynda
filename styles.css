@@ -1,20 +1,26 @@
 @charset "UTF-8";
-.body {
-	background-color: #000000;
+header{
+	background-color: #93B2DD;
+}
+
+section{
+	background-color: #8EFFD8;
 }
 h1 {
-	color: #C0C0C0;
-	font-weight: normal;
-	font-size: x-large;
+	color: #000000;
+	font-weight: bold;
+	
 }
 h2 {
-	color: #FFFFFF;
-	font-weight: normal;
-	font-size: large;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: large;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: left;
 }
 h3 {
-	color: #EE8A8B;
-	font-weight: lighter;
+	color: #0000000;
+	font-weight: bold;
 	font-size: x-large;
 }
 hr {
@@ -23,4 +29,18 @@ hr {
 }
 .max1200 {
 	max-width: 1000px;
+}
+
+
+.header-img {
+	max-height: 200px;
+}
+.navbar{
+    border: none;
+    background-color: #ABFDFF;
+    border-bottom-width: 0pt;
+    border-bottom-style: none;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+	border-radius: 0;
 }
