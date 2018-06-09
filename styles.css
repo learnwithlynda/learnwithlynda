@@ -32,10 +32,16 @@ h3 {
 	font-weight: bold;
 	font-size: x-large;
 }
+
+p{
+	colour: black;
+	font-size: 12pt;
+}
 hr {
 	color: #FF0004;
 	border-color: hsla(359,30%,63%,0.36);
 }
+
 .max1200 {
 	max-width: 1000px;
 }
@@ -55,6 +61,37 @@ hr {
 }
 .button-row{
 	text-align: center;
-	margin-top: 3px;
-	margin-bottom: 3px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+/*CTA Button*/
+.CTA-Button {
+	background-color: #ABFDFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 4px;
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	border: 2px solid rgba(0,0,37,1.00);
+	
+}
+.CTA-Button:hover {
+	background-color: #528FE2;
+	color: black;
+}
+
+.stats h2 {
+	
+	  color: #528FE2;
+    font-weight: normal;
+    font-size: large;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: left;
 }
