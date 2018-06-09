@@ -1,6 +1,15 @@
 @charset "UTF-8";
+body{
+max-width: 1000px;
+margin: 0 auto !important;
+float: none !important;
+}
 header{
 	background-color: #93B2DD;
+}
+
+footer{
+	
 }
 
 section{
@@ -43,4 +52,9 @@ hr {
     padding-bottom: 0px;
     margin-bottom: 0;
 	border-radius: 0;
+}
+.button-row{
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
